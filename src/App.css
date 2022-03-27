@@ -1,0 +1,38 @@
+.App >h1,h2, form {
+  text-align: center;
+  
+}
+.App > h1{
+  color:#3f51b5;
+}
+.App h2{
+  color:rgb(161, 156, 156);
+}
+
+img{
+  margin:0 45.5%;
+  
+}
+
+.app__form{
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: rgb(228, 225, 225);
+  padding: 10px;
+
+}
+
+.app__form > .form_controle{
+display: flex !important;
+flex-direction: row !important ;
+ 
+}
+.Forme__input{
+flex: 1;
+}
+.Forme__button{
+flex: 0;
+margin-right: 10px !important;
+}
